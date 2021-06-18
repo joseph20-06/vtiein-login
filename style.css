@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: powderblue;
+}
+img{
+  position: relative;
+  margin-top: -15px;
+  height:230px;
+  width: 450px;
+  left: -15px;
+
+}
+form{
+  background:rgba(255,255,255,0.1);
+  border: 2px solid black;
+box-shadow: 10px 20px 10px 5px rgba(0,0,0,1);
+text-decoration:none;
+  font-size: 15px;
+  border-radius: 25px;
+  margin-top: -300px;
+      width: 400px;
+      height:325px;
+      padding: 2% 2% ;
+      position: absolute;
+      -ms-backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+}
+
+.signin{
+    width: 400px;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.signin h1{
+    font-family:inherit;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+   top: -350px;
+
+}
+.signin p{
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+.signin input{
+    font-size: 15px;
+    width: 90%;
+    padding: 15px 10px;
+    border: red;
+    border-radius: 10px;
+    outline: none;
+
+}
+.signin button{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px 20px;
+    width: 30%;
+  border-color: black;
+    border-radius: 25px;
+}
+.signupbtn{
+    position: relative;
+    left:225px;
+    bottom: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.fp p{
+font-size: 15px;
+text-align: right;
+    text-transform: lowercase;
+    font-family: sans-serif;
+}
+button{
+  width:200px;
+  background: transparent;
+  cursor:pointer;
+  position: relative;
+  overflow: hidden;
+}
+span{
+  background:rgb(255, 255, 255);
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0s;
+}
+button:hover span{
+  width: 100%;
+}
+button:hover{
+  border:none;
+}
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#FP{
+  color: #000;
+}
